@@ -38,22 +38,41 @@ public class Proj1 {
 
 //    int highScore = calculateScore(score,levevrCompleted,gameOver,bonus);
 //        System.out.println("Your final score is: "+ highScore);
-        int playerSocre = 50;
-        displayPlayerRanking(playerSocre);
-    }
+//        int playerSocre = 50;
+//        displayPlayerRanking(playerSocre);
+//    }
+//
+//    public static int calculateHighScorePosition(int playerScore){
+//        if (playerScore > 1000){
+//            return 1;
+//        } else if (playerScore > 500 && playerScore < 1000){
+//            return 2;
+//        } else if (playerScore > 100 && playerScore < 500){
+//            return 3;
+//        }
+//        return 4;
+//
+//        //Otherwise we can set a starting value as four and
+//        //three if statements
+//    }
+//    public static void displayPlayerRanking(int playerScore){
+//        int ranking = calculateHighScorePosition(playerScore);
+//        System.out.println("Player high score position ranking is: " + ranking);
+//    }
 
-    public static int calculateHighScorePosition(int playerScore){
-        if (playerScore > 1000){
-            return 1;
-        } else if (playerScore > 500 && playerScore < 1000){
-            return 2;
-        } else if (playerScore > 100 && playerScore < 500){
-            return 3;
-        }
-        return 4;
-    }
-    public static void displayPlayerRanking(int playerScore){
-        int ranking = calculateHighScorePosition(playerScore);
-        System.out.println("Player high score position ranking is: " + ranking);
+
+
+//    public static void printConverter(double kiloMeter){
+//
+//        if (kiloMeter>=0){
+//            System.out.println(kiloMeter + " km/h = "+kiloMeter/1.609 + "mi/h");
+//        }
+//        System.out.println("Invalid Value");
+//    }
+
+//        System.out.println("Ok");
+//        public static void
+
     }
 }
+
