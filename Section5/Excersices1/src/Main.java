@@ -34,8 +34,18 @@ public class Main {
 //            System.out.println("Count value was "+count);
 //            count ++;
 //        } while (count != 6);
+//        int number = 4;
+//        int finishNumber = 20;
+//
+//        while (number <= finishNumber){
+//            number ++;
+//            if (!isEven(number)){
+//                continue;
+//            }
+//            System.out.println("Even number " + number);
+//        }
 
-        
+
     }
 
 
@@ -65,4 +75,10 @@ public class Main {
 //        }
 //        return summarized;
 //    }
+    public static boolean isEven(int n){
+        if (n%2==0){
+            return true;
+        }
+        return false;
+    }
 }
