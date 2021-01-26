@@ -26,8 +26,15 @@ public class Person {
         }
     }
     public String getFullName(){
-        
-        return (this.firstName + "" + this.lastName);
+        if (this.firstName != null && this.lastName != null){
+            System.out.println("here1");
+            return (this.firstName + " " + this.lastName);
+        } else if (this.firstName != null){
+            System.out.println("here");
+            return this.firstName;
+        }
+            return (this.firstName);
+
     }
     public String getFirstName(){
         return this.firstName;

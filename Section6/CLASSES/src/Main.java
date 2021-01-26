@@ -9,8 +9,9 @@ public class Main {
 //        calculator.setFirstNumber(5.0);
 //        calculator.setSecondNumber(4);
 //        System.out.println("add= " + calculator.getAdditionResult());
-
-
+        Person person = new Person();
+        person.setFirstName("John");
+        System.out.println(person.getFullName());
 
     }
 }
