@@ -5,6 +5,12 @@ public class BankAccount {
     private String phoneNumber;
     private int balance;
 
+    public BankAccount(){
+//        this("john");
+        //use this(parameters) to set default values
+        System.out.println("Empty constructor called");
+    }
+
     public void withdraw(int amount){
         if (amount <= this.balance){
             this.balance -= amount;
