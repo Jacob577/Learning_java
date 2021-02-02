@@ -48,3 +48,7 @@ public class Dog extends Animal {
     }
 }
 //I  tried to write some code but it didn't turn out well, I was to tired to understand what I was doing.
+//Did an effort to do a little bit of coding but ended up watching videos to understand further how inheritance work.
+//Also static. static for variables should be used as what I would call a global variable within methods
+//across obejcts. static methods should be used whenever there is no input variables to the method.
+//Super is used instead of using this when refering to a method from main class in extended methods.
