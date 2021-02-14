@@ -85,7 +85,7 @@ public class Playlist {
                     System.out.println("Name of the song: ");
                     String songName = scanner.nextLine();
                     System.out.println("Album name: " + albumName + " songname: " + songName);
-                    addToPlaylist(albums,albumName,songName);
+                    playlist.add(addToPlaylist(albums,albumName,songName));
                     break;
                 case 3:
                     System.out.println("Now playing: ");
