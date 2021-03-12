@@ -6,7 +6,7 @@ public class Main {
         timsPhone.callPhone(123456);
 
         timsPhone = new MobilePhone(24565);
-//        timsPhone.powerOn();
+        timsPhone.powerOn();
         timsPhone.callPhone(24565);
         timsPhone.answer();
     }
